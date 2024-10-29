@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Gloock&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Vite + Tailwind CSS</title>
+  </head>
+  <body class="bg-black">
+    <header class="py-10">
+      <nav class="flex justify-between items-center container">
+        <div>
+          <ul class="flex gap-10">
+            <li>
+              <a
+                class="relative inline-block text-base font-normal leading-[25.6px] text-left text-[#FFFFFF] group"
+                href="#"
+              >
+                Marketplace
+                <span
+                  class="absolute left-0 right-0 bottom-0 h-0.5 bg-[#D6EF0E] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="relative inline-block text-base font-normal leading-[25.6px] text-left text-[#FFFFFDB8] group"
+                href="#"
+              >
+                Artists
+                <span
+                  class="absolute left-0 right-0 bottom-0 h-0.5 bg-[#D6EF0E] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="relative inline-block text-base font-normal leading-[25.6px] text-left text-[#FFFFFDB8] group"
+                href="#"
+              >
+                Community
+                <span
+                  class="absolute left-0 right-0 bottom-0 h-0.5 bg-[#D6EF0E] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                ></span>
+              </a>
+            </li>
+            <li>
+              <a
+                class="relative inline-block text-base font-normal leading-[25.6px] text-left text-[#FFFFFDB8] group"
+                href="#"
+              >
+                Collections
+                <span
+                  class="absolute left-0 right-0 bottom-0 h-0.5 bg-[#D6EF0E] transform scale-x-0 group-hover:scale-x-100 transition-transform duration-300"
+                ></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <button
+            class="text-base font-bold leading-[19.2px] text-left w-[143px] h-[48px] px-[40px] py-[12px] gap-[10px] bg-[#D6EF0E] rounded-md text-[#FFFFFF]"
+          >
+            Contact
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <div>
+      <div class="container py-[90px] flex justify-between items-center">
+        <div>
+          <h1
+            class="text-6xl font-medium leading-[70px] text-left text-[#FFFFFD] font-serif"
+          >
+            Discover and <br />
+            Collect The Best <br />
+            NFTs
+            <span class="text-4xl font-medium text-left text-[#D6EF0E]"
+              >Digital Art.</span
+            >
+          </h1>
+          <p
+            class="text-base font-normal leading-[25.6px] text-left text-[#FFFFFD] py-5"
+          >
+            Get started with the easiest and most secure platform to buy and
+            trade <br />
+            digital ART and NFT's. Start exploring the world of digital art and
+            NFTs <br />
+            today and take control of your digital assets with confidence!
+          </p>
+          <div class="gap-9 flex items-center py-10">
+            <button
+              class="text-base font-bold leading-[19.2px] text-left w-[178px] h-[52px] px-[40px] py-[12px] gap-[10px] bg-[#D6EF0E] rounded-md text-[#FFFFFF]"
+            >
+              Explore Now
+            </button>
+            <a
+              class="text-base font-bold leading-[19.2px] text-left text-[#FFFFFD]"
+              href="#"
+              >Learn More</a
+            >
+          </div>
+          <div>
+            <div class="flex gap-[94px] py-16">
+              <div>
+                <h2
+                  class="font-serif text-3xl font-medium leading-[57.6px] text-left text-[#D6EF0E]"
+                >
+                  8.9 <span class="text-[#FFFFFD]">K</span>
+                </h2>
+                <p
+                  class="text-base font-normal leading-[30px] text-left text-[#FFFFFD]"
+                >
+                  Art work
+                </p>
+              </div>
+              <div class="h-[92px] w-1 border-l border-[#D6EF0E]"></div>
+              <div>
+                <h2
+                  class="font-serif text-3xl font-medium leading-[57.6px] text-left text-[#D6EF0E]"
+                >
+                  65 <span class="text-[#FFFFFD]">K</span>
+                </h2>
+                <p
+                  class="text-base font-normal leading-[30px] text-left text-[#FFFFFD]"
+                >
+                  Artist
+                </p>
+              </div>
+              <div class="h-[92px] w-1 border-l border-[#D6EF0E]"></div>
+              <div>
+                <h2
+                  class="font-serif text-3xl font-medium leading-[57.6px] text-left text-[#D6EF0E]"
+                >
+                  87 <span class="text-[#FFFFFD]">K</span>
+                </h2>
+                <p
+                  class="text-base font-normal leading-[30px] text-left text-[#FFFFFD]"
+                >
+                  Collection
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <img src="./images/heroimg.png" alt="" />
+          <div class="relative">
+            <img
+              class="absolute top-[-370px] left-[-100px]"
+              src="./images/circle.svg"
+              alt=""
+            />
+          </div>
+          <div class="relative">
+            <div class="absolute left-[230px] top-[-100px]">
+              <div
+                class="relative w-[304px] h-[169px] p-[20px] gap-[24px] rounded-[16px] border-t border-[#D6EF0E] shadow-[0px_9px_50px_0px_#1724410A] bg-[#131E3A] opacity-100"
+              >
+                <div class="flex justify-between items-center">
+                  <div>
+                    <p
+                      class="text-[16px] font-normal leading-[25.6px] text-left text-[#D6EF0E]"
+                    >
+                      Ends in
+                    </p>
+                    <p
+                      class="text-[16px] font-bold leading-[19.2px] text-left text-[#FFFFFD] py-2"
+                    >
+                      05:45:47
+                    </p>
+                  </div>
+                  <div>
+                    <p
+                      class="text-[16px] font-normal leading-[25.6px] text-left text-[#D6EF0E]"
+                    >
+                      Current bid
+                    </p>
+                    <p
+                      class="text-[16px] font-bold leading-[19.2px] text-left text-[#FFFFFD] py-2"
+                    >
+                      0.24ETH
+                    </p>
+                  </div>
+                </div>
+                <div class="py-6">
+                  <button
+                    class="text-center text-[16px] font-bold leading-[19.2px] w-[264px] h-[52px] p-[15px_40px] gap-0 rounded-[8px] text-[#D6EF0E] border border-[#D6EF0E] opacity-100"
+                  >
+                    Place A Bid
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container py-20">
+        <div class="flex justify-between">
+          <div>
+            <h2
+              class="font-serif text-[48px] font-medium leading-[57.6px] text-left text-[#FFFFFD]"
+            >
+              <span class="text-[#D6EF0E]">Amazing</span> and Super <br />
+              Unique Art of This <span class="text-[#D6EF0E]">Week</span>
+            </h2>
+          </div>
+          <div>
+            <div class="flex flex-col justify-end h-[100px]">
+              <button
+                class="mt-auto text-[16px] font-bold leading-[19.2px] text-left w-[134px] h-[52px] p-[15px_40px] gap-[12px] rounded-[8px] text-[#FFFFFF] bg-[#D6EF0E] opacity-100"
+              >
+                See All
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="py-16 grid grid-cols-3 gap-[70px]">
+          <div
+            class="w-[410px] h-[498px] bg-[#131E3A] pt-[20px] gap-[24px] rounded-[28px] border-t border-[#D6EF0E] opacity-100 flex flex-col"
+          >
+            <div class="flex items-center justify-center h-[320px]">
+              <img
+                class="flex justify-center"
+                src="./images/card-img.png"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between">
+              <p
+                class="mx-[20px] text-[24px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+              >
+                Cyberpunk Cocomo
+              </p>
+              <div class="flex gap-1">
+                <img class="mx-[-20px]" src="./images/ethereum.svg" alt="" />
+                <p
+                  class="mx-[20px] text-[16px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+                >
+                  490ETH
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <p
+                  class="mx-[20px] text-[14px] font-normal leading-[22.4px] text-left text-[#838382]"
+                >
+                  Ending In
+                </p>
+                <div class="flex gap-1 items-center">
+                  <img class="mx-[20px]" src="./images/clock.svg" alt="" />
+                  <p
+                    class="mx-[-20px] text-[16px] font-bold leading-[19.2px] text-left text-[#FFFFFD]"
+                  >
+                    03:24:56
+                  </p>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="mx-[20px] text-center text-[15.5px] font-medium leading-[19.2px] w-[168px] h-[48px] p-[15px_40px] gap-0 rounded-[8px] text-[#D6EF0E] border border-[#D6EF0E] opacity-100"
+                >
+                  Place A Bid
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[410px] h-[498px] bg-[#131E3A] pt-[20px] gap-[24px] rounded-[28px] border-t border-[#D6EF0E] opacity-100 flex flex-col"
+          >
+            <div class="flex items-center justify-center h-[320px]">
+              <img
+                class="flex justify-center"
+                src="./images/card-img.png"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between">
+              <p
+                class="mx-[20px] text-[24px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+              >
+                Cyberpunk Cocomo
+              </p>
+              <div class="flex gap-1">
+                <img class="mx-[-20px]" src="./images/ethereum.svg" alt="" />
+                <p
+                  class="mx-[20px] text-[16px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+                >
+                  490ETH
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <p
+                  class="mx-[20px] text-[14px] font-normal leading-[22.4px] text-left text-[#838382]"
+                >
+                  Ending In
+                </p>
+                <div class="flex gap-1 items-center">
+                  <img class="mx-[20px]" src="./images/clock.svg" alt="" />
+                  <p
+                    class="mx-[-20px] text-[16px] font-bold leading-[19.2px] text-left text-[#FFFFFD]"
+                  >
+                    03:24:56
+                  </p>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="mx-[20px] text-center text-[15.5px] font-medium leading-[19.2px] w-[168px] h-[48px] p-[15px_40px] gap-0 rounded-[8px] text-[#D6EF0E] border border-[#D6EF0E] opacity-100"
+                >
+                  Place A Bid
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-[410px] h-[498px] bg-[#131E3A] pt-[20px] gap-[24px] rounded-[28px] border-t border-[#D6EF0E] opacity-100 flex flex-col"
+          >
+            <div class="flex items-center justify-center h-[320px]">
+              <img
+                class="flex justify-center"
+                src="./images/card-img.png"
+                alt=""
+              />
+            </div>
+            <div class="flex justify-between">
+              <p
+                class="mx-[20px] text-[24px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+              >
+                Cyberpunk Cocomo
+              </p>
+              <div class="flex gap-1">
+                <img class="mx-[-20px]" src="./images/ethereum.svg" alt="" />
+                <p
+                  class="mx-[20px] text-[16px] font-bold leading-[28.8px] text-left text-[#FFFFFD]"
+                >
+                  490ETH
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div>
+                <p
+                  class="mx-[20px] text-[14px] font-normal leading-[22.4px] text-left text-[#838382]"
+                >
+                  Ending In
+                </p>
+                <div class="flex gap-1 items-center">
+                  <img class="mx-[20px]" src="./images/clock.svg" alt="" />
+                  <p
+                    class="mx-[-20px] text-[16px] font-bold leading-[19.2px] text-left text-[#FFFFFD]"
+                  >
+                    03:24:56
+                  </p>
+                </div>
+              </div>
+              <div>
+                <button
+                  class="mx-[20px] text-center text-[15.5px] font-medium leading-[19.2px] w-[168px] h-[48px] p-[15px_40px] gap-0 rounded-[8px] text-[#D6EF0E] border border-[#D6EF0E] opacity-100"
+                >
+                  Place A Bid
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container py-20 flex justify-between items-center">
+        <div>
+          <h2
+            class="font-serif text-[48px] font-medium leading-[57.6px] text-left text-[#FFFFFD]"
+          >
+            Create And Sell <br />
+            Your <span class="text-[#D6EF0E]">Best NFTs</span>
+          </h2>
+          <p
+            class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD] py-5"
+          >
+            Start exploring the world of digital art and NFTs today <br />
+            and take control of your digital assets with confidence!
+          </p>
+          <div class="gap-9 flex items-center py-10">
+            <button
+              class="text-base font-bold leading-[19.2px] text-left w-[178px] h-[52px] px-[40px] py-[12px] gap-[10px] bg-[#D6EF0E] rounded-md text-[#FFFFFF]"
+            >
+              Create Now
+            </button>
+            <a
+              class="text-base font-bold leading-[19.2px] text-left text-[#FFFFFD]"
+              href="#"
+              >Learn More</a
+            >
+          </div>
+        </div>
+        <div>
+          <img class="float-right" src="./images/section-img.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container py-20">
+        <div class="flex justify-between">
+          <div>
+            <h2
+              class="font-serif text-[48px] font-medium leading-[57.6px] text-left text-[#FFFFFD]"
+            >
+              Popular <span class="text-[#D6EF0E]">Artists</span> <br />
+              On This Week
+            </h2>
+          </div>
+          <div>
+            <div class="flex flex-col justify-end h-[100px]">
+              <button
+                class="mt-auto text-[16px] font-bold leading-[19.2px] text-left w-[134px] h-[52px] p-[15px_40px] gap-[12px] rounded-[8px] text-[#FFFFFF] bg-[#D6EF0E] opacity-100"
+              >
+                See All
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="py-16">
+          <img src="./images/Images.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="container justify-between items-center flex py-20">
+        <div>
+          <img src="./images/section-img2.png" alt="" />
+        </div>
+        <div>
+          <h2
+            class="font-serif text-[48px] font-medium leading-[57.6px] text-left text-[#FFFFFD]"
+          >
+            Subscribe And <span class="text-[#D6EF0E]">get our</span> <br />
+            <span class="text-[#D6EF0E]">Updates</span> Every Week
+          </h2>
+          <p
+            class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD] py-5"
+          >
+            We have a blog related to NFT so we can share thoughts and <br />
+            routines on our blog which is updated weekly
+          </p>
+          <div class="py-10">
+            <input
+              class="border-0 focus:outline-none text-[#FFFFFF] w-[516px] h-[60px] bg-[#131E3A] top-[228px] p-[16px_24px] rounded-[8px] opacity-100"
+              type="text"
+              placeholder="Enter your e-mail"
+            />
+
+            <div class="relative">
+              <button
+                class="absolute top-[-56px] left-[350px] text-base font-bold leading-[19.2px] text-left w-[160px] h-[52px] px-[40px] py-[12px] gap-[10px] bg-[#D6EF0E] rounded-md text-[#FFFFFF]"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="py-24 justify-between flex items-center">
+          <div>
+            <p
+              class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+            >
+              Discover NFTs by category, track <br />
+              the latest drop, and and follow the <br />
+              collections you love. Enjoy it!
+            </p>
+            <div class="flex gap-3 py-6">
+              <div
+                class="w-[24px] h-[24px] flex items-center justify-center cursor-pointer bg-[#FFFFFD] rounded-[5px] hover:bg-[#D6EF0E]"
+              >
+                <img src="./images/Vector (6).svg" alt="" />
+              </div>
+              <div
+                class="w-[24px] h-[24px] flex items-center justify-center cursor-pointer bg-[#FFFFFD] rounded-[5px] hover:bg-[#D6EF0E]"
+              >
+                <img src="./images/Vector (6).svg" alt="" />
+              </div>
+              <div
+                class="w-[24px] h-[24px] flex items-center justify-center cursor-pointer bg-[#FFFFFD] rounded-[5px] hover:bg-[#D6EF0E]"
+              >
+                <img src="./images/Vector (6).svg" alt="" />
+              </div>
+              <div
+                class="w-[24px] h-[24px] flex items-center justify-center cursor-pointer bg-[#FFFFFD] rounded-[5px] hover:bg-[#D6EF0E]"
+              >
+                <img src="./images/Vector (6).svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div>
+            <p
+              class="text-[20px] font-bold leading-[24px] text-left text-[#FFFFFF]"
+            >
+              Statistic
+            </p>
+            <ul>
+              <li class="pt-6">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Ranking</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Collectibles</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Activity</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-[20px] font-bold leading-[24px] text-left text-[#FFFFFF]"
+            >
+              Company
+            </p>
+            <ul>
+              <li class="pt-6">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >About Us</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Career</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Support</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Partners</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-[20px] font-bold leading-[24px] text-left text-[#FFFFFF]"
+            >
+              Explore
+            </p>
+            <ul>
+              <li class="pt-6">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Art Sign In</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Collectibles</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Domain Name</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Utility</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div>
+            <p
+              class="text-[20px] font-bold leading-[24px] text-left text-[#FFFFFF]"
+            >
+              Resources
+            </p>
+            <ul>
+              <li class="pt-6">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Help Center</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Platform Status</a
+                >
+              </li>
+              <li class="pt-2">
+                <a
+                  class="text-[16px] font-normal leading-[25.6px] text-left text-[#FFFFFD]"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+        <hr class="border-[#838382]" />
+        <div class="flex justify-between py-11">
+          <p
+            class="text-[16px] font-normal leading-[25.6px] text-center text-[#FFFFFD]"
+          >
+            © Copyright 2023 - davixq
+          </p>
+          <div class="flex gap-7">
+            <p
+              class="text-[16px] font-normal leading-[25.6px] text-center text-[#FFFFFD]"
+            >
+              Privacy Policy
+            </p>
+            <p
+              class="text-[16px] font-normal leading-[25.6px] text-center text-[#FFFFFD]"
+            >
+              Terms & Conditions
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
